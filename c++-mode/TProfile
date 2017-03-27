@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: profile
+# key: profile
+# --
+TProfile *${1:pf} = new TProfile("$1", "$1", ${2:nbinsx}, ${3:xlow}, ${4:xup}, ${5:ylow}, ${6:yup});

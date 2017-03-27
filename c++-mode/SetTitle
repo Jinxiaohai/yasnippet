@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: SetTitle
+# key:  SetTitle
+# --
+${1:his}->GetXaxis()->SetTitle("${2:name X}");
+$1->GetXaxis()->SetTitleSize(${3:0.035});
+$1->GetXaxis()->CenterTitle(${4:true});
+$1->GetYaxis()->SetTitle("${5:name Y}");
+$1->GetYaxis()->SetTitleSize($3);
+$1->GetYaxis()->CenterTitle($4);

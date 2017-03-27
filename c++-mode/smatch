@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: smatch
+# key: smatch
+# --
+std::smatch $0

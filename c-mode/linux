@@ -1,0 +1,28 @@
+# -*- mode: snippet -*-
+# name: linux
+# key: linux
+# --
+/********************************************************/
+/*                 Created  by  xiaohai                 */
+/*                 Telphone : 18501781924               */
+/*            E-mail : jinxiaohai@sinap.ac.cn           */
+/*            E-mail : xiaohaijin@outlook.com           */
+/*   Address : Shanghai Institute of Applied Physics    */
+/********************************************************/
+#include <assert.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include <time.h>
+//linux
+#include <unistd.h>
+#include <dirent.h>
+#include <sys/stat.h>
+#include <errno.h>
+
+int main(int argc, char *argv[])
+{
+  $0
+  exit(0);
+}

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: slc
+# key: slc
+# --
+SetLineColor(${1:2});$0

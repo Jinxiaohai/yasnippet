@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: sba
+# key: sba
+# --
+${1:tree}->SetBranchAddress("${2:name}", ${3:address});

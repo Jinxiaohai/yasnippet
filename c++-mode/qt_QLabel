@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: QLabel
+# key: QLabel
+# --
+QLabel *${1:label} = new QLabel();

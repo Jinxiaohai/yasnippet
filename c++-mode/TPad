@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: TPad
+# key: TPad
+# --
+TPad *${1:pad} = new TPad("$1", "$1", 0.05, 0.05, 0.95, 0.95);

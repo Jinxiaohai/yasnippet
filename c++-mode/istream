@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: istream
+# key: istream
+# --
+istream $0

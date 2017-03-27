@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: cstdlib
+# key: cstdlib
+# --
+#include <cstdlib>

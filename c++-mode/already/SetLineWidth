@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: slw
+# key: slw
+# --
+SetLineWidth(${1:width});$0

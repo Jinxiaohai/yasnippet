@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: template
+# key: template
+# --
+template <typename T>
+${1:void} ${2:function name}(${3:parameter})
+{
+  $0
+} /// template

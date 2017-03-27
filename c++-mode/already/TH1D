@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: TH1D
+# key: TH1D
+# --
+TH1D *${1:his} = new TH1D("$1", "$1", ${2:nbins}, ${3:xlow}, ${4:xup});$0

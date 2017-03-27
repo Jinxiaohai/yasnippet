@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: qt
+# key: qt
+# --
+#include <QApplication>
+#include <QPushButton>
+
+int main(int argc, char *argv[])
+{
+  QApplication app(argc, argv);
+  
+  $0
+  
+  return app.exec();
+}

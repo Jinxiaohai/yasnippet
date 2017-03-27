@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: SaveAs
+# key: s
+# --
+SaveAs("${1:*}.eps");$0

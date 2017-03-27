@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: TF1
+# key: TF1
+# --
+TF1 *${1:func} = new TF1("${2:func}", "${3:function}", ${4:xmin}, ${5:xmax});$0

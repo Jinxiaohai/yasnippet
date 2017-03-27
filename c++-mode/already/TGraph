@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: gr
+# key: gr
+# --
+TGraph *${1:gr} = new TGraph(${2:N}, ${3:pointer}, ${4:pointer});$0

@@ -1,0 +1,5 @@
+#contributor : Jimmy Wu <frozenthrone88@gmail.com>
+#name : l
+#key : l
+# --
+<${1:p}>$0</$1>

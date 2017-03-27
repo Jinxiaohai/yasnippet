@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: fr
+# key: fr
+# --
+FillRandom("${1:name}", ${2:ntimes});$0

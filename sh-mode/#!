@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: sharpbang
+# key: sb
+# --
+#!/bin/bash
+
+$0

@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: canvas
+# key: canvas
+# --
+TCanvas *${1:canvas} = new TCanvas("$1", "$1", 0, 0, 700, 700);
+$1->SetTopMargin(0.07);
+$1->SetRightMargin(0.07);
+$1->SetBottomMargin(0.07);
+$1->SetLeftMargin(0.07);
+$1->SetFrameFillColor(16);
+$1->SetFillColor(20);
+$1->SetGridx(1);
+$1->SetGridy(1);
+$0

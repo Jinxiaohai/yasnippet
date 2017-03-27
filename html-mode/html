@@ -1,0 +1,13 @@
+#name : html
+#key : html
+# --
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>${1:test}</title>
+</head>
+<body>
+  $0
+</body>
+</html>

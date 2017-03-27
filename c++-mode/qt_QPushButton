@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: QPushButton
+# key: QPushButton
+# --
+QPushButton *${1:button} = new QPushButton("${2:name}");$0

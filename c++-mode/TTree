@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: tree
+# key: tree
+# --
+TTree *${1:tree pointer} = new TTree("${2:tree name}", "${3:tree title}");$0

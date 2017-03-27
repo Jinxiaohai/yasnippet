@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: axis
+# key: axis
+# --
+Get${1:Y}axis()

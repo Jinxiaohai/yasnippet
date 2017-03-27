@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: ofstream
+# key: ofstream
+# --
+ofstream $0

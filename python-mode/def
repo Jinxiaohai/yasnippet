@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: def method(self, ...):
+# key: def
+# group: Definitions
+# --
+def ${1:methodname}(${2:arg}):
+    ${3:pass}

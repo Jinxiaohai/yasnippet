@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: zaxis
+# key: zaxis
+# --
+GetZaxis()$0

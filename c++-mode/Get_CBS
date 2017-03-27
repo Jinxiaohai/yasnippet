@@ -1,0 +1,525 @@
+# -*- mode: snippet -*-
+# name: Get_CBS
+# key: Get_CBS
+# --
+/** 
+ * Created by xiaohai.
+ * @param id 
+ * @return chargenumber, strangenumber or baryonnumber.
+ */
+
+#include <iostream>
+int Get_CBS(int id, char type)
+{
+  char TYPE = toupper(type);
+  int charge = 0;
+  int strange = 0;
+  int baryon = 0;
+
+  if (id == 11)
+    {
+     charge = -1;
+     strange = 0;
+     baryon = 0;
+    }
+  else if (id == -11)
+    {
+     charge = 1;
+     strange = 0;
+     baryon = 0;
+    }
+  else if (id == 111)
+    {
+      charge = 0;
+      strange = 0;
+      baryon = 0;
+    }
+  else if (id == 130)
+    {
+      charge = 0;
+      strange = 0;    ///////
+      baryon = 0; 
+    }
+  else if (id == 211)
+    {
+     charge = 1;
+     strange = 0;
+     baryon = 0;
+    }
+  else if (id == -211)
+    {
+     charge = -1;
+     strange = 0;
+     baryon = 0;
+    }
+  else if (id == 213)
+    {
+     charge = 1;
+     strange = 0;
+     baryon = 0;
+    }
+  else if (id == 310)
+    {
+      charge = 0;
+      strange = 0;    ///////
+      baryon = 0;
+    }
+  else if (id == 321)
+    {
+     charge = 1;
+     strange = 1;
+     baryon = 0;
+    }
+  else if (id == -321)
+    {
+     charge = -1;
+     strange = -1;
+     baryon = 0;
+    }
+  else if (id == 323)
+    {
+     charge = 1;
+     strange = 1;
+     baryon = 0;
+    }
+  else if (id == 411)
+    {
+     charge = 1;
+     strange = 0;
+     baryon = 0;
+    }
+  else if (id == -411)
+    {
+     charge = -1;
+     strange = 0;
+     baryon = 0;
+    }
+  else if (id == 413)
+    {
+     charge = 1;
+     strange = 0;
+     baryon = 0;
+    }
+  else if (id == -413)
+    {
+     charge = -1;
+     strange = 0;
+     baryon = 0;
+    }
+  else if (id == 421)
+    {
+      charge = 0;
+      strange = 0;
+      baryon = 0;
+    }
+  else if (id == -421)
+    {
+      charge = 0;
+      strange = 0;
+      baryon = 0;
+    }
+  else if (id == -423)
+    {
+      charge = 0;
+      strange = 0;
+      baryon = 0;
+    }
+  else if (id == 431)
+    {
+     charge = 1;
+     strange = 1;
+     baryon = 0;
+    }
+  else if (id == -431)
+    {
+     charge = -1;
+     strange = -1;
+     baryon = 0;
+    }
+  else if (id == 433)
+    {
+     charge = 1;
+     strange = 1;
+     baryon = 0;
+    }
+  else if (id == -433)
+    {
+     charge = -1;
+     strange = -1;
+     baryon = 0;
+    }
+  else if (id == 441)
+    {
+      charge = 0;
+      strange = 0;
+      baryon = 0;
+    }
+  else if (id == 521)
+    {
+     charge = 1;
+     strange = 0;
+     baryon = 0;
+    }
+  else if (id == -521)
+    {
+     charge = -1;
+     strange = 0;
+     baryon = 0;
+    }
+  else if (id == 523)
+    {
+     charge = 1;
+     strange = 0;
+     baryon = 0;
+    }
+  else if (id == -523)
+    {
+     charge = -1;
+     strange = 0;
+     baryon = 0;
+    }
+  else if (id == 1114)
+    {
+     charge = -1;
+     strange = 0;
+     baryon = 1;
+    }
+  else if (id == 2212)
+    {
+     charge = 1;
+     strange = 0;
+     baryon = 1;
+    }
+  else if (id == -2212)
+    {
+     charge = -1;
+     strange = 0;
+     baryon = -1;
+    }
+  else if (id == 2214)
+    {
+     charge = 1;
+     strange = 0;
+     baryon = 1;
+    }
+  else if (id == 2224)
+    {
+     charge = 2;
+     strange = 0;
+     baryon = 1;
+    }
+  else if (id == 3112)
+    {
+     charge = -1;
+     strange = -1;
+     baryon = 1;
+    }
+  else if (id == -3112)
+    {
+     charge = 1;
+     strange = 1;
+     baryon = -1;
+    }
+  else if (id == 3114)
+    {
+     charge = -1;
+     strange = 0;   ////////????
+     baryon = 0;    ////////????
+    }
+  else if (id == 3122)
+    {
+      charge = 0;
+      strange = -1;
+      baryon = 0;
+    }
+  else if (id == -3122)
+    {
+      charge = 0;
+      strange = 1;
+      baryon = 0;
+    }
+  else if (id == 3222)
+    {
+     charge = 1;
+     strange = -1;
+     baryon = 1;
+    }
+  else if (id == -3222)
+    {
+     charge = -1;
+     strange = 1;
+     baryon = -1;
+    }
+  else if (id == 3224)
+    {
+     charge = 1;
+     strange = 0;  /////////?????
+     baryon = 0;   /////////?????
+    }
+  else if (id == 3312)
+    {
+     charge = -1;
+     strange = -2;
+     baryon = 1;
+    }
+  else if (id == -3312)
+    {
+     charge = 1;
+     strange = 2;
+     baryon = -1;
+    }
+  else if (id == 3314)
+    {
+     charge = -1;
+     strange = 0;   ////////??????
+     baryon = 0;    ////////??????
+    }
+  else if (id == 3322)
+    {
+      charge = 0;
+      strange = -2;
+      baryon = 1;
+    }
+  else if (id == -3322)
+    {
+      charge = 0;
+      strange = 2;
+      baryon = -1;
+    }
+  else if (id == 3334)
+    {
+     charge = -1;
+     strange = -3;
+     baryon = 1;
+    }
+  else if (id == -3334)
+    {
+     charge = 1;
+     strange = 3;
+     baryon = -1;
+    }
+  else if (id == 4112)
+    {
+      charge = 0;
+      strange = 0;
+      baryon = 1;
+    }
+  else if (id == -4112)
+    {
+      charge = 0;
+      strange = 0;
+      baryon = -1;
+    }
+  else if (id == 4122)
+    {
+     charge = 1;
+     strange = 0;
+     baryon = 1;
+    }
+  else if (id == -4122)
+    {
+     charge = -1;
+     strange = 0;
+     baryon = -1;
+    }
+  else if (id == 4132)
+    {
+      charge = 0;
+      strange = -1;
+      baryon = 1;
+    }
+  else if (id == -4132)
+    {
+      charge = 0;
+      strange = 1;
+      baryon = -1;
+    }
+  else if (id == 4212)
+    {
+     charge = 1;
+     strange = 0;
+     baryon = 1;
+    }
+  else if (id == -4212)
+    {
+     charge = -1;
+     strange = 0;
+     baryon = -1;
+    }
+  else if (id == 4222)
+    {
+     charge = 2;
+     strange = 0;
+     baryon = 1;
+    }
+  else if (id == -4222)
+    {
+     charge = -2;
+     strange = 0;
+     baryon = -1;
+    }
+  else if (id == 4224)
+    {
+     charge = 2;
+     strange = 0;  ///////?????
+     baryon = 0;   ///////?????
+    }
+  else if (id == 4232)
+    {
+     charge = 1;
+     strange = -1;
+     baryon = 1;
+    }
+  else if (id == -4232)
+    {
+     charge = -1;
+     strange = 1;
+     baryon = -1;
+    }
+  else if (id == 4322)
+    {
+     charge = 1;
+     strange = -1;   /////
+     baryon = 1;     /////
+    }
+  else if (id == -4322)
+    {
+     charge = -1;
+     strange = 1;     //////
+     baryon = -1;     //////
+    }
+  else if (id == 4324)
+    {
+      charge = 1;
+      strange = 0;    //////
+      baryon = 0;     /////
+    }
+  else if (id == 4332)
+    {
+      charge = 0;
+      strange = -2;
+      baryon = 1;
+    }
+  else if (id == -4332)
+    {
+      charge = 0;
+      strange = 2;
+      baryon = -1;
+    }
+  else if (id == 4412)
+    {
+     charge = 1;
+     strange = 0;
+     baryon = 1;
+    }
+  else if (id == -4412)
+    {
+     charge = -1;
+     strange = 0;
+     baryon = -1;
+    }
+  else if (id == 4422)
+    {
+     charge = 2;
+     strange = 0;
+     baryon = 1;
+    }
+  else if (id == -4422)
+    {
+     charge = -2;
+     strange = 0;
+     baryon = -1;
+    }
+  else if (id == 4432)
+    {
+     charge = 1;
+     strange = -1;
+     baryon = 1;
+    }
+  else if (id == -4432)
+    {
+     charge = -1;
+     strange = 1;
+     baryon = -1;
+    }
+  else if (id == -4444)
+    {
+     charge = -2;
+     strange = 0;
+     baryon = -1;
+    }
+  else if (id == 5112)
+    {
+     charge = -1;
+     strange = 0;
+     baryon = 1;
+    }
+  else if (id == -5112)
+    {
+     charge = 1;
+     strange = 0;
+     baryon = -1;
+    }
+  else if (id == 5132)
+    {
+     charge = -1;
+     strange = -1;
+     baryon = 1;
+    }
+  else if (id == -5132)
+    {
+     charge = 1;
+     strange = 1;
+     baryon = -1;
+    }
+  else if (id == -5222)
+    {
+     charge = -1;
+     strange = 0;
+     baryon = -1;
+    }
+  else if (id == 5312)
+    {
+     charge = -1;
+     strange = -1;
+     baryon = 1;
+    }
+  else if (id == -5312)
+    {
+     charge = 1;
+     strange = 1;
+     baryon = -1;
+    }
+  else if (id == -5332)
+    {
+     charge = 1;
+     strange = -2;
+     baryon = 1;
+    }
+
+
+  switch(TYPE)
+    {
+    case 'C':
+      {
+        return charge;
+        break;
+      }
+    case 'S':
+      {
+        return strange;
+        break;
+      }
+    case 'B':
+      {
+        return baryon;
+        break;
+      }
+    default:
+      {
+        std::cout << "the second parameter is wrong !!!" << std::endl;
+        break;
+      }
+    }
+  return 0;
+}

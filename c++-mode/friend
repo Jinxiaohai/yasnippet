@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: friend
+# key: friend
+# --
+friend $0;

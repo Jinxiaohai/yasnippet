@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: SetLine
+# key: SetLine
+# --
+${1:his}->SetLineColor(${2:1});
+$1->SetLineWidth(${3:1});

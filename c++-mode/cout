@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: xiaohai
+# name: cout
+# key: cout
+# --
+cout << $0 << endl;

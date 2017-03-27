@@ -1,0 +1,4 @@
+#name : input
+#key : input
+# --
+<input name="${1:Name}" type="${2:text}">

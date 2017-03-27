@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Branch
+# key: Branch
+# --
+Branch("${1:banch name}", "${2:address:variable is to be read}", "${3:leaf list}");

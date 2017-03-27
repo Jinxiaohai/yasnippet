@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: xaxis
+# key: xaxis
+# --
+GetXaxis()$0

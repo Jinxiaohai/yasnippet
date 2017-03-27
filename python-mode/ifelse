@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: ifelse
+# key: ifelse
+# group : control structure
+# --
+if $1:
+    $2
+else:
+    $0

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: t
+# key: t
+# --
+template <typename T>
+${1:clss} ${2:class name}
+{
+  $0
+}; /// template class

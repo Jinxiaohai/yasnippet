@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Draw
+# key: d
+# --
+Draw($0);

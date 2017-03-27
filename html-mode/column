@@ -1,0 +1,7 @@
+#contributor : Jimmy Wu <frozenthrone88@gmail.com>
+#name : <meta name="..." content="..." />
+#key : c
+# --
+<${1:p}>
+    $0
+</$1>

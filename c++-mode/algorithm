@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: algo
+# key: algo
+# --
+// Created  by  xiaohai
+// E-mail : xiaohaijin@outlook.com
+
+#include <iostream>
+
+using namespace std;
+
+int main(int argc, char *argv[])
+  {
+    $0
+    return 0;
+  }

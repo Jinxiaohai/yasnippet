@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: yaxis
+# key: yaxis
+# --
+GetYaxis()$0

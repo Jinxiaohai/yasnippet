@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: TCanvas
+# key: TCanvas
+# --
+TCanvas *${1:canvas} = new TCanvas("$1", "$1", ${2:0}, ${3:0}, ${4:700}, ${5:700});
+${6:$1->SetTopMargin(${7:0.07});}
+${8:$1->SetRightMargin(${9:0.07});}
+${10:$1->SetBottomMargin(${11:0.07});}
+${12:$1->SetLeftMargin(${13:0.07});}
+${14:$1->SetFrameFillColor(${15:16});}
+${16:$1->SetFillColor(${17:20});}
+${18:$1->SetGridx(${19:1});}
+${20:$1->SetGridy(${21:1});}$0

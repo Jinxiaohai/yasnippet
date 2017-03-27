@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: reference
+# key: reference
+# --
+\begin\{thebibliography\}\{${1:最大序号}\}
+\bibitem[${2:文献序号}]\{${3:检索名}\} ${4:文献信息}
+\end\{thebibliography\}

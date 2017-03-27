@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: TFile
+# key: TFile
+# --
+TFile *${1:file} = new TFile("${2:file.root}", "${3:RECREATE}");$0

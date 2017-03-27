@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: sxt
+# key: sxt
+# --
+SetXTitle("${1:title}");$0

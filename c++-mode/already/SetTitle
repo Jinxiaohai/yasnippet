@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: st
+# key: st
+# --
+SetTitle("${1:title name}");$0

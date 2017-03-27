@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: af
+# key: af
+# --
+AddFolder("${1:Name}", "${2:Title}");

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: syt
+# key: syt
+# --
+SetYTitle("${1:title}");$0

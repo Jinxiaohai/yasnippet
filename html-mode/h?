@@ -1,0 +1,6 @@
+#contributor : Rodrigo Setti <rodrigosetti@gmail.com>
+#name : <h> ... </h>
+#group : h
+# key: h
+# --
+<h${1:1}>$0</h$1>

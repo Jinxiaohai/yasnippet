@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: ifstream
+# key: ifstream
+# --
+ifstream $0

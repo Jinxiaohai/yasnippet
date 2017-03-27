@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: connect
+# key: connect
+# --
+QObject::connect(${1:sender}, SIGNAL(${2:}), ${3:receiver}, SLOT(${4:}));

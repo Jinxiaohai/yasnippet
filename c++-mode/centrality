@@ -1,0 +1,17 @@
+# -*- mode: snippet -*-
+# name: centrality
+# key: centrality
+# --
+int Centrality(const double &impact_parameter )
+{
+  int central = 1000;
+  for( int i = 1; i <= 100; ++i )
+    {
+      if(impact_parameter <= sqrt(i/100.)*2.0*pow(ANUMBER,1.0/3.0)*1.124)
+      {
+        central = i - 1;
+        return central;
+      }
+    }
+  return central;
+}$0

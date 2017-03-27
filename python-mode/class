@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: class(parent): ...
+# key: class
+# group: Definitions
+# --
+class ${1:ClassName}(${2:object}):
+    """${3:Documentation for $1}
+    """
+    def __init__(self${4:, args}):
+        $0

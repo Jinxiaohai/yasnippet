@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: TLegend
+# key: TLegend
+# --
+TLegend *${1:leg} = new TLegend(${2:0.67}, ${3:0.73}, ${4:0.86}, ${5:0.86});
+leg->AddEntry(${6:histogram}, "${7:discribe the legend}", "${8:lp}");
+leg->Draw("${9:same}");

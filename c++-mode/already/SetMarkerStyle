@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: sms
+# key: sms
+# --
+SetMarkerStyle(${1:21});$0

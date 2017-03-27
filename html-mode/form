@@ -1,0 +1,6 @@
+#name : form
+#key : form
+# --
+<form name="demo" action="${1:mailto:xiaohaijin@outlook.com}" method="${2:post}">
+  $0
+</form>

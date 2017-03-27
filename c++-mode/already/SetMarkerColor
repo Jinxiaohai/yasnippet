@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: smc
+# key: smc
+# --
+SetMarkerColor(${1:4});$0

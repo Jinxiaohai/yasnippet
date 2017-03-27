@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: TGraph
+# key: TGraph
+# --
+TGraph *${1:gr} = new TGraph(${2:N}, ${3:*X}, ${4:*Y});$0
